@@ -13,7 +13,7 @@ const events = [
   {
     title: 'Summer Shred Bootcamp',
     date: 'June 1–30, 2026',
-    location: 'Ravi Fitness Gym, Akividu',
+    location: 'Ravi Classic Fitness, Akividu',
     description: '30-day intensive fat-burning bootcamp. Daily 6 AM sessions combining HIIT, strength, and endurance.',
     spots: '15 spots left',
     accent: 'neon-red',
@@ -21,7 +21,7 @@ const events = [
   {
     title: 'Strength Foundations Workshop',
     date: 'July 15, 2026',
-    location: 'Ravi Fitness Gym, Akividu',
+    location: 'Ravi Classic Fitness, Akividu',
     description: 'Learn proper form for all major compound lifts. Perfect for beginners wanting to build a strong base.',
     spots: '20 spots left',
     accent: 'electric-blue',
@@ -29,7 +29,7 @@ const events = [
   {
     title: 'Women\'s Fitness Special',
     date: 'Every Saturday',
-    location: 'Ravi Fitness Gym, Akividu',
+    location: 'Ravi Classic Fitness, Akividu',
     description: 'Dedicated women-only sessions focused on toning, strength, and flexibility. All fitness levels welcome.',
     spots: 'Open enrollment',
     accent: 'neon-red',

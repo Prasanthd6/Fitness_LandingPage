@@ -6,16 +6,29 @@ import { HiPhone, HiLocationMarker, HiClock, HiMail } from 'react-icons/hi';
    CONTACT SECTION — Phone, address, Google Maps
    ======================================== */
 
-// --- PLACEHOLDER: Update with actual contact details ---
+// --- Phone/email: flyer had no official contact — update when you have real details ---
 const contactInfo = [
   { icon: HiPhone, label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
   { icon: HiMail, label: 'Email', value: 'ravifitness@gmail.com', href: 'mailto:ravifitness@gmail.com' },
-  { icon: HiLocationMarker, label: 'Address', value: 'Main Road, Akividu, West Godavari, Andhra Pradesh 534235', href: null },
-  { icon: HiClock, label: 'Timings', value: 'Mon–Sat: 5:00 AM – 10:00 PM | Sun: 6:00 AM – 12:00 PM', href: null },
+  {
+    icon: HiLocationMarker,
+    label: 'Address',
+    value:
+      'Ravi Classic Fitness, Siva Rama Raju Complex, Kakarla Vari Veedhi, Lakshmi Hospital Road, S-turning — Akividu.',
+    href: null,
+  },
+  {
+    icon: HiClock,
+    label: 'Timings',
+    value:
+      'Men & women — Morning: 5 AM–9 AM · Evening: 5 PM–9 PM.\nWomen only — Morning: 9 AM–10 AM · Evening: 4 PM–5 PM.',
+    href: null,
+  },
 ];
 
-// --- PLACEHOLDER: Update Google Maps embed with exact location ---
-const MAPS_EMBED_URL = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15283.246!2d81.3833!3d16.5833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37c0000000001%3A0x0!2sAkividu!5e0!3m2!1sen!2sin!4v1234567890';
+// Map search near landmark address (replace with your exact Google Maps embed if you have one)
+const MAPS_EMBED_URL =
+  'https://maps.google.com/maps?q=Siva+Rama+Raju+Complex%2C+Kakarla+Vari+Veedhi%2C+Lakshmi+Hospital+Road%2C+Akividu%2C+Andhra+Pradesh&hl=en&z=16&output=embed';
 
 export default function Contact() {
   const [sectionRef, isVisible] = useScrollAnimation({ threshold: 0.1 });
@@ -29,10 +42,10 @@ export default function Contact() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={isVisible ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }} className="mb-12 w-full text-center lg:mb-16">
           <span className="text-neon-red font-semibold tracking-[0.2em] uppercase text-sm">Get In Touch</span>
           <h2 className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl mt-4 sm:mt-5">
-            Visit <span className="text-gradient-red">Ravi Fitness</span>
+            Visit <span className="text-gradient-red">Ravi Classic Fitness</span>
           </h2>
           <p className="section-intro-lead text-pretty px-2 text-lg text-text-muted mt-4 sm:mt-5">
-            Come see our facility, meet Ravi, and start your transformation.
+            AC unisex gym on Lakshmi Hospital Road — meet the team and see the floor.
           </p>
         </motion.div>
 
@@ -65,7 +78,13 @@ export default function Contact() {
                         {item.value}
                       </a>
                     ) : (
-                      <p className="text-white font-medium text-pretty leading-relaxed">{item.value}</p>
+                      <p
+                        className={`text-white font-medium text-pretty leading-relaxed ${
+                          item.label === 'Timings' ? 'whitespace-pre-line' : ''
+                        }`}
+                      >
+                        {item.value}
+                      </p>
                     )}
                   </div>
                 </div>
@@ -88,7 +107,7 @@ export default function Contact() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ravi Fitness Gym Location — Akividu, Andhra Pradesh"
+              title="Ravi Classic Fitness — Akividu, Andhra Pradesh"
             />
           </motion.div>
         </div>

@@ -50,7 +50,7 @@ export default function Transformations() {
             <span className="text-gradient-red">Transformations</span>
           </h2>
           <p className="section-intro-lead text-pretty px-2 text-lg text-text-muted mt-4 sm:mt-5">
-            Our members don&apos;t just train — they transform. See the real results achieved at Ravi Fitness.
+            Our members don&apos;t just train — they transform. See the real results achieved at Ravi Classic Fitness.
           </p>
         </motion.div>
 

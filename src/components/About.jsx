@@ -56,7 +56,7 @@ export default function About() {
               <img
                 src={trainerImg}
                 alt="Trainer Ravi — Champion Bodybuilder and Fitness Coach"
-                className="w-full h-[min(70vh,420px)] sm:h-[480px] lg:h-[560px] xl:h-[600px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-[min(70vh,420px)] sm:h-[480px] lg:h-[560px] xl:h-[600px] object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
               {/* Gradient Overlay */}
@@ -100,7 +100,7 @@ export default function About() {
                 preparation.
               </p>
               <p>
-                At Ravi Fitness, every member gets the personal attention and expert guidance 
+                At Ravi Classic Fitness, every member gets the personal attention and expert guidance 
                 that only a champion-level trainer can provide. Whether you&apos;re a beginner 
                 or an advanced athlete, Ravi will design a program tailored to your body and goals.
               </p>

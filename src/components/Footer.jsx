@@ -39,15 +39,15 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-red to-neon-pink flex items-center justify-center font-heading font-black text-lg text-white">
-                RF
+                RCF
               </div>
               <div>
-                <span className="font-heading font-bold text-lg text-white">RAVI FITNESS</span>
-                <span className="block text-[10px] tracking-[0.3em] uppercase text-text-muted">Unisex Gym</span>
+                <span className="font-heading font-bold text-lg text-white">RAVI CLASSIC FITNESS</span>
+                <span className="block text-[10px] tracking-[0.3em] uppercase text-text-muted">Unisex · AC</span>
               </div>
             </div>
             <p className="text-text-muted text-sm leading-relaxed mb-6">
-              Akividu&apos;s premium unisex gym. Train with a champion, transform your life.
+              Cardio, strength, bodybuilding, weight maintenance &amp; personal training — Akividu.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -73,25 +73,23 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Gym Timings */}
+          {/* Gym timings (matches in-gym flyer) */}
           <div>
             <h4 className="font-heading font-bold text-white mb-4">Gym Timings</h4>
-            <div className="space-y-3 text-sm">
-              <div className="flex justify-between text-text-muted">
-                <span>Monday – Friday</span>
-                <span className="text-white">5:00 AM – 10:00 PM</span>
+            <div className="space-y-3 text-sm text-text-muted">
+              <div>
+                <p className="text-white font-semibold mb-1">Men &amp; women</p>
+                <p>Morning: 5:00 AM – 9:00 AM</p>
+                <p>Evening: 5:00 PM – 9:00 PM</p>
               </div>
-              <div className="flex justify-between text-text-muted">
-                <span>Saturday</span>
-                <span className="text-white">5:00 AM – 9:00 PM</span>
-              </div>
-              <div className="flex justify-between text-text-muted">
-                <span>Sunday</span>
-                <span className="text-white">6:00 AM – 12:00 PM</span>
+              <div className="pt-2 border-t border-dark-400">
+                <p className="text-white font-semibold mb-1">Women only</p>
+                <p>Morning: 9:00 AM – 10:00 AM</p>
+                <p>Evening: 4:00 PM – 5:00 PM</p>
               </div>
               <div className="mt-4 pt-4 border-t border-dark-400">
                 <p className="text-text-muted text-xs">
-                  Personal training sessions available by appointment. Contact Ravi for scheduling.
+                  Personal training by appointment — WhatsApp or visit the front desk.
                 </p>
               </div>
             </div>
@@ -103,7 +101,7 @@ export default function Footer() {
       <div className="border-t border-dark-400">
         <div className="layout-container py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-text-muted text-sm">
-            &copy; {new Date().getFullYear()} Ravi Fitness Unisex Gym. All rights reserved.
+            &copy; {new Date().getFullYear()} Ravi Classic Fitness (Unisex Gym). All rights reserved.
           </p>
           <p className="text-text-muted text-sm flex items-center gap-1">
             Made with <HiHeart className="text-neon-red" /> in Akividu

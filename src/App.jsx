@@ -25,17 +25,17 @@ function LoadingScreen() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Inner column: items-center keeps RF + copy horizontally centered */}
+      {/* Inner column: items-center keeps logo + copy horizontally centered */}
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5 }}
         className="mx-auto flex w-full max-w-sm flex-col items-center text-center"
       >
-        <div className="mb-6 flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-neon-red to-neon-pink font-heading text-3xl font-black text-white loading-pulse">
-          RF
+        <div className="mb-6 flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-neon-red to-neon-pink font-heading text-xl font-black text-white loading-pulse px-1 text-center leading-tight">
+          RCF
         </div>
-        <h2 className="mb-2 font-heading text-2xl font-bold text-white">RAVI FITNESS</h2>
+        <h2 className="mb-2 font-heading text-2xl font-bold text-white">RAVI CLASSIC FITNESS</h2>
         <p className="text-sm uppercase tracking-[0.3em] text-text-muted">Loading...</p>
         {/* Animated bar */}
         <div className="mt-6 h-1 w-48 max-w-full overflow-hidden rounded-full bg-dark-600">

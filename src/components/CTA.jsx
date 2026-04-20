@@ -56,7 +56,7 @@ export default function CTA() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="section-intro-lead mb-10 px-1 text-lg leading-relaxed text-text-secondary text-pretty sm:mb-12 sm:text-xl"
           >
-            Stop waiting for the &ldquo;perfect time.&rdquo; Your transformation starts with a single step. Join Ravi Fitness today and get your first week free.
+            Stop waiting for the &ldquo;perfect time.&rdquo; Your transformation starts with a single step. Join Ravi Classic Fitness — see membership &amp; PT prices or message us on WhatsApp.
           </motion.p>
 
           <motion.div
@@ -66,7 +66,7 @@ export default function CTA() {
             className="flex w-full max-w-2xl flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:justify-center sm:gap-5"
           >
             <a href={JOIN_NOW_URL} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center px-10 py-4 text-center bg-gradient-to-r from-neon-red to-neon-pink text-white font-heading font-bold text-lg rounded-xl hover:scale-105 transition-all duration-300 pulse-glow">
-              Join Now — It&apos;s Free to Start
+              Join Now
             </a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-flex justify-center px-10 py-4 text-center border-2 border-electric-blue/50 text-electric-blue font-heading font-bold text-lg rounded-xl hover:bg-electric-blue/10 hover:border-electric-blue hover:scale-105 transition-all duration-300">
               Talk to Ravi on WhatsApp

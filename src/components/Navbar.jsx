@@ -52,15 +52,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Brand */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-red to-neon-pink flex items-center justify-center font-heading font-black text-lg">
-              RF
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-neon-red to-neon-pink flex items-center justify-center font-heading font-black text-sm leading-tight text-center px-0.5">
+              RCF
             </div>
             <div>
               <span className="font-heading font-bold text-lg tracking-tight text-white group-hover:text-neon-red transition-colors">
-                RAVI FITNESS
+                RAVI CLASSIC FITNESS
               </span>
               <span className="block text-[10px] tracking-[0.3em] uppercase text-text-muted font-body">
-                Unisex Gym
+                Unisex · AC
               </span>
             </div>
           </a>

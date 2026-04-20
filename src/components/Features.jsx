@@ -17,9 +17,9 @@ const features = [
   },
   {
     icon: HiCog,
-    title: 'Modern Equipment',
+    title: 'Programs & services',
     description:
-      'Imported, commercial-grade machines and free weights. From squat racks to cable machines, we have everything you need for a complete workout.',
+      'Cardio, strength, bodybuilding, weight maintenance, and personal training — structured training for every level, with quality equipment on the floor.',
     accent: 'from-electric-blue to-electric-blue-light',
   },
   {
@@ -31,9 +31,9 @@ const features = [
   },
   {
     icon: HiUserGroup,
-    title: 'Unisex Friendly',
+    title: 'Unisex friendly',
     description:
-      'A welcoming space for everyone. Dedicated zones, flexible timings for women, and a respectful, professional training environment for all.',
+      'Open to all. Men & women: 5–9 AM and 5–9 PM. Dedicated women-only hours: 9–10 AM and 4–5 PM — train comfortably in a respectful, professional space.',
     accent: 'from-electric-blue to-electric-blue-light',
   },
 ];

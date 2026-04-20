@@ -59,7 +59,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-neon-red animate-pulse" />
           <span className="text-sm font-medium text-neon-red-light tracking-wide">
-            #1 Premium Gym in Akividu
+            Ravi Classic Fitness · AC Unisex Gym · Akividu
           </span>
         </motion.div>
 
@@ -85,8 +85,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="section-intro-lead mb-11 px-1 font-body text-lg leading-relaxed text-text-secondary text-pretty sm:mb-12 sm:text-xl"
         >
-          Join Akividu&apos;s most premium unisex gym. Train with champion trainer Ravi in a
-          world-class facility with modern equipment and personalized programs.
+          Train at Ravi Classic Fitness — fully AC, unisex gym on Lakshmi Hospital Road. Cardio,
+          strength, bodybuilding, weight maintenance &amp; personal training with expert coaching.
         </motion.p>
 
         {/* CTA Buttons */}

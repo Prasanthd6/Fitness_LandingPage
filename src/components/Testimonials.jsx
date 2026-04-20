@@ -21,7 +21,7 @@ const testimonials = [
     name: 'Sneha Reddy',
     role: 'Member since 2023',
     rating: 5,
-    text: "As a woman, I was hesitant to join a gym, but Ravi Fitness is incredibly welcoming. The separate training zones and Ravi sir's professional approach made all the difference. Best gym in Akividu!",
+    text: "As a woman, I was hesitant to join a gym, but Ravi Classic Fitness is incredibly welcoming. The women-only hours and Ravi sir's professional approach made all the difference. Best gym in Akividu!",
     initials: 'SR',
   },
   {
