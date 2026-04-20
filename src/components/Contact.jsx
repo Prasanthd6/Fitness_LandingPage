@@ -8,7 +8,7 @@ import { HiPhone, HiLocationMarker, HiClock, HiMail } from 'react-icons/hi';
 
 // --- Phone/email: flyer had no official contact — update when you have real details ---
 const contactInfo = [
-  { icon: HiPhone, label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210' },
+  { icon: HiPhone, label: 'Phone', value: '+91 77299 43466', href: 'tel:+917729943466' },
   { icon: HiMail, label: 'Email', value: 'ravifitness@gmail.com', href: 'mailto:ravifitness@gmail.com' },
   {
     icon: HiLocationMarker,

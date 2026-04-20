@@ -7,7 +7,7 @@ import { HiCalendar, HiLocationMarker, HiArrowRight } from 'react-icons/hi';
    ======================================== */
 
 // --- PLACEHOLDER: Update with real events ---
-const WHATSAPP_URL = 'https://wa.me/919876543210?text=Hi%20Ravi%2C%20I%20want%20to%20register%20for%20';
+const WHATSAPP_URL = 'https://wa.me/917729943466?text=Hi%20Ravi%2C%20I%20want%20to%20register%20for%20';
 
 const events = [
   {

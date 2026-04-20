@@ -6,7 +6,7 @@ import { HiCheck, HiArrowRight } from 'react-icons/hi';
    PROGRAMS SECTION — Membership & personal training (flyer pricing)
    ======================================== */
 
-const WHATSAPP_URL = 'https://wa.me/919876543210?text=Hi%20Ravi%2C%20I%27m%20interested%20in%20';
+const WHATSAPP_URL = 'https://wa.me/917729943466?text=Hi%20Ravi%2C%20I%27m%20interested%20in%20';
 
 // --- General membership & PT packages (Ravi Classic Fitness flyer) ---
 const programs = [

@@ -7,7 +7,7 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 // --- PLACEHOLDER: Update with actual URLs ---
 const JOIN_NOW_URL = 'https://forms.google.com/your-form-link';
-const WHATSAPP_URL = 'https://wa.me/919876543210?text=Hi%20Ravi%2C%20I%20want%20to%20start%20my%20fitness%20journey!';
+const WHATSAPP_URL = 'https://wa.me/917729943466?text=Hi%20Ravi%2C%20I%20want%20to%20start%20my%20fitness%20journey!';
 
 export default function CTA() {
   const [sectionRef, isVisible] = useScrollAnimation({ threshold: 0.2 });

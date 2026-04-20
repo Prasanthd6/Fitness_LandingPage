@@ -9,7 +9,7 @@ import heroBg from '../assets/hero-bg.png';
 
 // --- PLACEHOLDERS: Update with actual URLs ---
 const JOIN_NOW_URL = 'https://forms.google.com/your-form-link';
-const WHATSAPP_URL = 'https://wa.me/919876543210?text=Hi%20Ravi%2C%20I%20want%20to%20book%20a%20free%20trial%20session!';
+const WHATSAPP_URL = 'https://wa.me/917729943466?text=Hi%20Ravi%2C%20I%20want%20to%20book%20a%20free%20trial%20session!';
 
 export default function Hero() {
   return (

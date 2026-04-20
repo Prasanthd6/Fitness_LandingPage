@@ -7,7 +7,7 @@ import { FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 // --- PLACEHOLDER: Update with actual social links ---
 const INSTAGRAM_URL = 'https://instagram.com/ravifitness';
-const WHATSAPP_URL = 'https://wa.me/919876543210';
+const WHATSAPP_URL = 'https://wa.me/917729943466';
 const YOUTUBE_URL = 'https://youtube.com/@ravifitness';
 
 const footerLinks = [
