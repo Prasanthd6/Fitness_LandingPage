@@ -26,9 +26,9 @@ const contactInfo = [
   },
 ];
 
-// Embedded map source used by the location iframe
+// Embedded map source used by the location iframe (must be iframe-safe)
 const MAPS_EMBED_URL =
-  'https://maps.app.goo.gl/RHP28ZCwJbUedwsn8';
+  'https://maps.google.com/maps?q=16.5816921,81.3771662&z=17&output=embed';
 
 export default function Contact() {
   const [sectionRef, isVisible] = useScrollAnimation({ threshold: 0.1 });
