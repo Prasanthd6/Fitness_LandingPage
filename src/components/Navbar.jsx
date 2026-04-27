@@ -16,8 +16,9 @@ const navLinks = [
   { name: 'Contact', href: '#contact' },
 ];
 
-// --- PLACEHOLDER: Update with actual Google Form URL ---
-const JOIN_NOW_URL = 'https://forms.google.com/your-form-link';
+// Primary CTA link for "Join Now" buttons in desktop and mobile nav
+const JOIN_NOW_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLScqs25ZzWAyguWHhq2hgvcZDo01gurl375K4e2K2Vug_PT-tg/viewform?usp=header';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);

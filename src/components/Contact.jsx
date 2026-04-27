@@ -6,10 +6,10 @@ import { HiPhone, HiLocationMarker, HiClock, HiMail } from 'react-icons/hi';
    CONTACT SECTION — Phone, address, Google Maps
    ======================================== */
 
-// --- Phone/email: flyer had no official contact — update when you have real details ---
+// Core contact cards shown in the contact section
 const contactInfo = [
   { icon: HiPhone, label: 'Phone', value: '+91 77299 43466', href: 'tel:+917729943466' },
-  { icon: HiMail, label: 'Email', value: 'ravifitness@gmail.com', href: 'mailto:ravifitness@gmail.com' },
+  { icon: HiMail, label: 'Email', value: 'ravifitnessgym6@gmail.com', href: 'mailto:ravifitnessgym6@gmail.com' },
   {
     icon: HiLocationMarker,
     label: 'Address',
@@ -26,9 +26,9 @@ const contactInfo = [
   },
 ];
 
-// Map search near landmark address (replace with your exact Google Maps embed if you have one)
+// Embedded map source used by the location iframe
 const MAPS_EMBED_URL =
-  'https://maps.google.com/maps?q=Siva+Rama+Raju+Complex%2C+Kakarla+Vari+Veedhi%2C+Lakshmi+Hospital+Road%2C+Akividu%2C+Andhra+Pradesh&hl=en&z=16&output=embed';
+  'https://maps.app.goo.gl/RHP28ZCwJbUedwsn8';
 
 export default function Contact() {
   const [sectionRef, isVisible] = useScrollAnimation({ threshold: 0.1 });
