@@ -28,7 +28,7 @@ const contactInfo = [
 
 // Embedded map source used by the location iframe (must be iframe-safe)
 const MAPS_EMBED_URL =
-  'https://maps.google.com/maps?q=16.5816921,81.3771662&z=17&output=embed';
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.896885484866!2d81.3745912746102!3d16.581697225516155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a36315c257efecf%3A0xfe7d440c3ca1a9bc!2sRavi%20Classic%20Fitness%20Unisex%20Gym!5e0!3m2!1sen!2sin!4v1777290973152!5m2!1sen!2sin';
 
 export default function Contact() {
   const [sectionRef, isVisible] = useScrollAnimation({ threshold: 0.1 });
